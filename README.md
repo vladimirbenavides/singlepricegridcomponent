@@ -8,7 +8,7 @@ I'm a passionate frontend developer from Colombia
 
 
 ## 🔗 Links
-https://github.com/vladimirbenavides/singlepricegridcomponent
+https://vladimirbenavides.github.io/singlepricegridcomponent/
 
 ## 🛠 Skills
 Javascript, HTML, CSS...
