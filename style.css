@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+--Cyan: hsl(179, 62%, 43%);
+--light_Cyan: hsl(179, 47%, 52%);
+--Bright_Yellow: hsl(71, 73%, 54%);
+--Light_Gray: hsl(204, 43%, 93%);
+--Grayish_Blue: hsl(218, 22%, 67%);
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+    background-color:var(--Light_Gray);
+    font-size: 16px;
+
+}
+
+/* First Mobile */
+
+.container{
+    background-color: whitesmoke;
+    height:730px;
+    width:313px;
+    margin: 70px auto 70px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.our_community{
+    padding: 8px 24px 24px 24px;
+    height: 270px;
+    box-sizing: border-box;
+}
+.our_community h2.title{
+    font-size: 1.2em;
+    color: var(--Cyan);
+}
+.our_community h2.promo{
+    color: var(--Bright_Yellow);
+    font-size: 1em;
+    margin: 25px 0 10px 0;
+}
+.our_community p{
+    color: var(--Grayish_Blue);
+    font-size: 0.86 em;
+    line-height: 27px;
+    margin-top: 16px;
+}
+
+.monthly_subscription{
+    background-color: var(--Cyan);
+    padding: 12px 24px 24px 24px;
+    height: 230px;
+    box-sizing: border-box;
+    color: var(--Light_Gray);
+}
+.monthly_subscription h2{
+    font-size: 1em;
+    margin-bottom: 18px;
+}
+.price{
+    font-size: 2em;
+    font-weight: 700;
+}
+.payment{
+    margin-left: 20px;
+    font-size: 0.8em;
+}
+.monthly_subscription p{
+    margin-top: 8px;
+}
+.why_us{
+    background-color: var(--light_Cyan);
+    padding: 8px 24px 24px 24px;
+    height: 230px;
+    box-sizing: border-box;
+    color: var(--Light_Gray);
+}
+button{
+    background-color: var(--Bright_Yellow);
+    border-radius: 5px;
+    margin-top: 14px;
+    width: 100%;
+    height: 48px;
+    border-style: none;
+    color: var(--Light_Gray);
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.why_us h2{
+    font-size: 18px;
+}
+li{
+    list-style-type: none;
+    margin-left: -40px;
+    font-size: 0.85em;
+    line-height: 20px;
+    font-weight: 300px;
+}
+
+
+/*footer*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);   
+}
+
+
+
+/*Desktop: 1440px*/
+
+@media only screen and (min-width: 680px){
+
+    .container{
+        width: 636px;
+        height: 476px ;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 160px auto 100px;
+
+    }
+    .our_community{
+        grid-column: 1 / 3;
+        padding: 20px 35px 35px 35px;
+        height: 218px;
+    }
+    .our_community h2.title{
+        font-size: 1.45em;
+    }
+    .our_community h2.promo{
+        font-size: 1.1em;
+    }
+    .our_community p{
+        font-size: 1em;
+        line-height: 27px;
+        margin-top: 8px;
+    }
+    .monthly_subscription{
+        padding: 20px 40px 40px 40px;
+        height: 258px;
+    }
+    .monthly_subscription h2{
+        font-size: 0.95em;
+    }
+    .why_us{
+        height: 258px;
+        padding: 20px 40px 40px 40px;
+    }
+}
+
